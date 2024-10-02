@@ -1,0 +1,24 @@
+.headerContainer {
+  height: 33vh;
+  background: var(--main-bg-color);
+  background: linear-gradient(
+    297deg,
+    var(--main-bg-color) 0%,
+    var(--second-bg-color) 100%
+  );
+  text-align: center;
+  color: white;
+  display: grid;
+  align-content: center;
+}
+
+.searchContainer {
+  margin-top: -1rem;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  opacity: 0.25;
+}

@@ -1,0 +1,22 @@
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.card-wrapper{
+  display: grid;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 80vw;
+  margin: 0 auto;
+    margin-top: 0px;
+  margin-top: 15vh;
+  justify-content: flex-start;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+}
