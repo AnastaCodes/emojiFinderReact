@@ -1,8 +1,27 @@
-# React + Vite
+# Emoji Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Search ~1,800 emojis by keyword and copy them with one click.**
 
-Currently, two official plugins are available:
+![Emoji Finder screenshot](docs/screenshot.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**[Try it live →](https://anastacodes.github.io/emojiFinderReact/)**
+
+## Features
+
+- Instant keyword search over a local emoji dataset — no API round-trips
+- Keyword deduplication for cleaner search matching
+- Component-based UI (Form, Card, Container) styled with CSS Modules
+- Deployed to GitHub Pages via `gh-pages`
+
+## Tech stack
+
+React 18 · Vite 5 · CSS Modules
+
+## Run locally
+
+```bash
+git clone https://github.com/AnastaCodes/emojiFinderReact.git
+cd emojiFinderReact
+npm install
+npm run dev
+```
